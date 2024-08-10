@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="./response.html" method="get">
+        <fieldset>
+            <legend>Application Form</legend>
+        <dl>
+            <dt><label for="name">Fullname</label></dt>
+            <dd><input type="text" name="name" id="name"></dd>
+            <dt><label for="mobileno">MobileNo</label></dt>
+            <dd><input type="text" name="number" id="mobileno" required pattern="\+91[6-9]\d{9}"></dd>
+            <dt><label for="fee">Amount</label></dt>
+            <dd><input type="text" name="fee" id="fee" placeholder="EntryFee" required pattern="[\9]+"></dd>
+            <dt><label for="address">Address</label></dt>
+            <textarea name="address" id="address" rows="10" cols="10"></textarea>
+        </dl>
+        <input type="submit">
+        </fieldset>
+        </form>
+        <a href="./html.html"><img src="./home.jpeg" alt="home" width="50"></a>
+</body>
+
+</html>
